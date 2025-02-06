@@ -1,8 +1,8 @@
-package main
+package atredis
 
 import "fmt"
 
-const bird = `
+const ATREDIS-bird = `
        .                                                               ..       
     ..'''...                                                        ..'''''...  
  .',,,;;;;,;,,'.                                               .';;;;;;;;;;,,'. 
@@ -29,5 +29,6 @@ const bird = `
 `
 
 func main() {
+	fmt.Println("Hello from ATREDIS Partners")
 	fmt.Println(bird)
 }
